@@ -6,9 +6,9 @@ Implementation of [Random Walk based Hierarchical Collaborative Filtering for Di
 - Python 3.7
 - PyTorch 1.8.1
 - CUDA 11.1
--dgl 0.9.1
--torch_geometric 2.0.2
--torch_cluster 1.5.9
+- dgl 0.9.1
+- torch_geometric 2.0.2
+- torch_cluster 1.5.9
 
 
 ## Small-scale Networks
