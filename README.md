@@ -6,9 +6,9 @@ Implementation of [Random Walk based Hierarchical Collaborative Filtering for Di
 - Python 3.7
 - PyTorch 1.8.1
 - CUDA 11.1
-- dgl 0.9.1
-- torch_geometric 2.0.2
-- torch_cluster 1.5.9
+-dgl 0.9.1
+-torch_geometric 2.0.2
+-torch_cluster 1.5.9
 
 
 ## Small-scale Networks
@@ -43,6 +43,25 @@ Example command:
 ```bash
 python main_large_graph.py --dataset=epinions
 ``` 
+
+
+## Reference
+
+If you find the code useful, please cite our paper:
+
+```
+@article{11410006,
+  author={Fang, Zhihong and Tan, Shaolin and Chen, Yao and Liu, Hui},
+  journal={IEEE Transactions on Network Science and Engineering}, 
+  title={Random Walk based Hierarchical Collaborative Filtering for Directed Network Embedding}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-18},
+  doi={10.1109/TNSE.2026.3667739}}
+```
+
+Thanks!
 
 
 ## Acknowlegdements
