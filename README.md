@@ -13,7 +13,7 @@ Implementation of [Random Walk based Hierarchical Collaborative Filtering for Di
 
 ## Small-scale Networks
 
-Instructions for reproducing the experiments reported in GNU, Wiki, JUNG and Ciao datasets.
+Instructions for reproducing the experiments on the GNU, Wiki, JUNG, and Ciao datasets.
 
 ### Training & Evaluation
 
@@ -27,7 +27,7 @@ python main_small_graph.py --dataset=GNU --epochs=10
 
 ## Large-scale Networks
 
-Instructions for reproducing the experiments reported in Epinions and Twitter networks.
+Instructions for reproducing the experiments on the Epinions and Twitter datasets.
 
 ### Data Preparation
 
