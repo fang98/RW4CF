@@ -12,7 +12,7 @@ parser.add_argument('--dataset', type=str, default='GNU', dest = 'dataset', help
 parser.add_argument('--seed', type=int, default=0, dest = 'seed', help='data seed')
 parser.add_argument('--learning_rate', type=float, default=1e-2)
 parser.add_argument('--batch_size',type=int, default=256)
-parser.add_argument('--epochs',type=int, default=10)
+parser.add_argument('--epochs',type=int, default=10)#10 for GNU, and 40 for Wiki,JUNG and Ciao
 parser.add_argument('--emb_dim',type=int, default=64)
 parser.add_argument('--walk_length',type=int, default=25)
 parser.add_argument('--context_size',type=int, default=5)
